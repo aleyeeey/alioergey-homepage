@@ -13,7 +13,7 @@ import {
 
 import Section from '../components/section'
 import Layout from '../components/layouts/article'
-import Paragraph from '../components/paragraph'
+import Paragraph, { ParagraphDiv } from '../components/paragraph'
 import { ChevronRightIcon, EmailIcon, Icon } from '@chakra-ui/icons'
 import { BioSection, BioYear } from '../components/bio'
 import { IoLogoGithub, IoLogoLinkedin } from 'react-icons/io5'
@@ -61,17 +61,19 @@ const Page = () => {
           <Heading as="h3" variant="section-title">
             Work
           </Heading>
-          <Paragraph>
-            Freelancing Full Stack Developer & Software Engineer with over 2
-            years experience focusing on scalable solutions for front and
-            backend development. Passionate about creating high quality products
-            and improving user experience in engaging and challenging projects.
-            Currently working for{' '}
-            <NextLink href="/works/marktfee">
-              <Link>ciconia Software GmbH </Link>
-            </NextLink>
-            as a working student - Lead Software Developer.
-          </Paragraph>
+          <ParagraphDiv>
+            <Paragraph>
+              Freelancing Full Stack Developer & Software Engineer with over 2
+              years experience focusing on scalable solutions for front and
+              backend development. Passionate about creating high quality
+              products and improving user experience in engaging and challenging
+              projects. Currently working for{' '}
+              <NextLink href="/works/marktfee">
+                <Link>ciconia Software GmbH </Link>
+              </NextLink>
+              as a working student - Lead Software Developer.
+            </Paragraph>
+          </ParagraphDiv>
           <Box align="center" my={4}>
             <NextLink href="/works">
               <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
@@ -84,86 +86,68 @@ const Page = () => {
           <Heading as="h3" variant="section-title">
             Bio
           </Heading>
-          <BioSection>
-            <BioYear>
-              <u>2021 to present</u>
-            </BioYear>
+          <BioYear>2021 to present</BioYear>
+          <ParagraphDiv>
             <Paragraph>
               Working at ciconia Software GmbH in Mannheim, Germany as working
               student (Lead Software Developer)
             </Paragraph>
-          </BioSection>
-          <BioSection>
-            <BioYear>
-              <u>2020 to present</u>
-            </BioYear>
+          </ParagraphDiv>
+          <BioYear>2020 to present</BioYear>
+          <ParagraphDiv>
             <Paragraph>Working freelance as a Software Developer</Paragraph>
-          </BioSection>
-          <BioSection>
-            <BioYear>
-              <u>2018 to present</u>
-            </BioYear>
+          </ParagraphDiv>
+          <BioYear>2018 to present</BioYear>
+          <ParagraphDiv>
             <Paragraph>
               Studying business informatics at University of Mannheim
             </Paragraph>
-          </BioSection>
-          <BioSection>
-            <BioYear>
-              <u>2020 to 2021</u>
-            </BioYear>
+          </ParagraphDiv>
+          <BioYear>2020 to 2021</BioYear>
+          <ParagraphDiv>
             <Paragraph>
               Worked at Leaf Systems GmbH in Mannheim, Germany as working
               student (Software Developer)
             </Paragraph>
-          </BioSection>
-          <BioSection>
-            <BioYear>
-              <u>2019 to 2020</u>
-            </BioYear>
+          </ParagraphDiv>
+          <BioYear>2019 to 2020</BioYear>
+          <ParagraphDiv>
             <Paragraph>
               Worked at Heidelberger Druckmaschinen AG in Walldorf, Germany as
               working student (IT project manager)
             </Paragraph>
-          </BioSection>
-          <BioSection>
-            <BioYear>
-              <u>2018 to 2019</u>
-            </BioYear>
+          </ParagraphDiv>
+          <BioYear>2018 to 2019</BioYear>
+          <ParagraphDiv>
             <Paragraph>
               Worked at DATAGROUP SE (Remote) as working student (Service Desk
               Agent)
             </Paragraph>
-          </BioSection>
-          <BioSection>
-            <BioYear>
-              <u>2017 to 2018</u>
-            </BioYear>
+          </ParagraphDiv>
+          <BioYear>2017 to 2018</BioYear>
+          <ParagraphDiv>
             <Paragraph>
               Worked at DATAGROUP SE in Stuttgart, Germany as Service Desk Agent
             </Paragraph>
-          </BioSection>
-          <BioSection>
-            <BioYear>
-              <u>2015</u>
-            </BioYear>
+          </ParagraphDiv>
+          <BioYear>2015</BioYear>
+          <ParagraphDiv>
             <Paragraph>
               Worked at ASZ GmbH & Co. KG in Heilbronn, Germany as IT system
               administrator
             </Paragraph>
-          </BioSection>
-          <BioSection>
-            <BioYear>
-              <u>2012</u>
-            </BioYear>
+          </ParagraphDiv>
+          <BioYear>2012</BioYear>
+          <ParagraphDiv>
             <Paragraph>
               Completed High School in Friedrich-von-Alberti Gymnasium, Germany
             </Paragraph>
-          </BioSection>
+          </ParagraphDiv>
           <BioSection>
-            <BioYear>
-              <u>1993</u>
-            </BioYear>
-            <Paragraph>Born in Bad Friedrichshall, Germany</Paragraph>
+            <BioYear>1993</BioYear>
+            <ParagraphDiv>
+              <Paragraph>Born in Bad Friedrichshall, Germany</Paragraph>
+            </ParagraphDiv>
           </BioSection>
         </Section>
         <Section delay={0.3}>
