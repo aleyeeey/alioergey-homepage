@@ -70,7 +70,7 @@ const Page = () => {
             <NextLink href="/works/marktfee">
               <Link>ciconia Software GmbH </Link>
             </NextLink>
-            as a working student - Software Developer.
+            as a working student - Lead Software Developer.
           </Paragraph>
           <Box align="center" my={4}>
             <NextLink href="/works">
