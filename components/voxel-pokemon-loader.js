@@ -18,8 +18,7 @@ export const PokeContainer = forwardRef(({ children }, ref) => (
     className="voxel-pokemon"
     m="auto"
     mt={['-20px', '-60px', '-120px']}
-    mb={['-40px', '-140px', '-140px']}
-    mr={['-40px', '-140px', '80px']}
+    mb={['-40px', '-140px', '-100px']}
     w={[280, 480, 640]}
     h={[280, 480, 640]}
     position="relative"

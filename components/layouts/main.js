@@ -3,6 +3,7 @@ import Navbar from '../navbar'
 import { Box, Container } from '@chakra-ui/react'
 import dynamic from 'next/dynamic'
 import VoxelPokemonLoader from '../voxel-pokemon-loader'
+import Footer from '../footer'
 
 const LazyVoxelPokemon = dynamic(() => import('../voxel-pokemon'), {
   ssr: false,
@@ -22,6 +23,7 @@ const Main = ({ children, router }) => {
       <Container maxW="container.md" pt={14}>
         <LazyVoxelPokemon />
         {children}
+        <Footer />
       </Container>
     </Box>
   )

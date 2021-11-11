@@ -85,49 +85,85 @@ const Page = () => {
             Bio
           </Heading>
           <BioSection>
-            <BioYear>1993</BioYear>
-            Born in Bad Friedrichshall, Germany
+            <BioYear>
+              <u>2021 to present</u>
+            </BioYear>
+            <Paragraph>
+              Working at ciconia Software GmbH in Mannheim, Germany as working
+              student (Lead Software Developer)
+            </Paragraph>
           </BioSection>
           <BioSection>
-            <BioYear>2012</BioYear>
-            Completed High School in Friedrich-von-Alberti Gymnasium, Germany
+            <BioYear>
+              <u>2020 to present</u>
+            </BioYear>
+            <Paragraph>Working freelance as a Software Developer</Paragraph>
           </BioSection>
           <BioSection>
-            <BioYear>2015</BioYear>
-            Worked at ASZ GmbH & Co. KG in Heilbronn, Germany as IT system
-            administrator
+            <BioYear>
+              <u>2018 to present</u>
+            </BioYear>
+            <Paragraph>
+              Studying business informatics at University of Mannheim
+            </Paragraph>
           </BioSection>
           <BioSection>
-            <BioYear>2017 to 2018</BioYear>
-            Worked at DATAGROUP SE in Stuttgart, Germany as Service Desk Agent
+            <BioYear>
+              <u>2020 to 2021</u>
+            </BioYear>
+            <Paragraph>
+              Worked at Leaf Systems GmbH in Mannheim, Germany as working
+              student (Software Developer)
+            </Paragraph>
           </BioSection>
           <BioSection>
-            <BioYear>2018 to 2019</BioYear>
-            Worked at DATAGROUP SE (Remote) as working student (Service Desk
-            Agent)
+            <BioYear>
+              <u>2019 to 2020</u>
+            </BioYear>
+            <Paragraph>
+              Worked at Heidelberger Druckmaschinen AG in Walldorf, Germany as
+              working student (IT project manager)
+            </Paragraph>
           </BioSection>
           <BioSection>
-            <BioYear>2019 to 2020</BioYear>
-            Worked at Heidelberger Druckmaschinen AG in Walldorf, Germany as
-            working student (IT project manager)
+            <BioYear>
+              <u>2018 to 2019</u>
+            </BioYear>
+            <Paragraph>
+              Worked at DATAGROUP SE (Remote) as working student (Service Desk
+              Agent)
+            </Paragraph>
           </BioSection>
           <BioSection>
-            <BioYear>2020 to 2021</BioYear>
-            Worked at Leaf Systems GmbH in Mannheim, Germany as working student
-            (Software Developer)
+            <BioYear>
+              <u>2017 to 2018</u>
+            </BioYear>
+            <Paragraph>
+              Worked at DATAGROUP SE in Stuttgart, Germany as Service Desk Agent
+            </Paragraph>
           </BioSection>
           <BioSection>
-            <BioYear>2018 to present</BioYear>
-            studying business informatics at University of Mannheim
+            <BioYear>
+              <u>2015</u>
+            </BioYear>
+            <Paragraph>
+              Worked at ASZ GmbH & Co. KG in Heilbronn, Germany as IT system
+              administrator
+            </Paragraph>
           </BioSection>
           <BioSection>
-            <BioYear>2020 to present</BioYear>
-            Working freelance as a Software Developer
+            <BioYear>
+              <u>2012</u>
+            </BioYear>
+            <Paragraph>
+              Completed High School in Friedrich-von-Alberti Gymnasium, Germany
+            </Paragraph>
           </BioSection>
           <BioSection>
-            <BioYear>2021 to present</BioYear>
-            Working at ciconia Software GmbH in Mannheim, Germany as working
-            student (Software Developer)
+            <BioYear>
+              <u>1993</u>
+            </BioYear>
+            <Paragraph>Born in Bad Friedrichshall, Germany</Paragraph>
           </BioSection>
         </Section>
         <Section delay={0.3}>
