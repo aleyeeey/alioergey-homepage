@@ -4,6 +4,7 @@ import { WorkGridItem } from '../components/grid-item'
 import thumbMarktfee from '../public/images/marktfee-page.png'
 import thumbBelegcheck from '../public/images/tse_google_play.png'
 import thumbDirPersonal from '../public/images/dir_personal.png'
+import thumbDashboard from '../public/images/dashboard.png'
 import Layout from '../components/layouts/article'
 
 const Works = () => {
@@ -14,6 +15,15 @@ const Works = () => {
           Works
         </Heading>
         <SimpleGrid columns={[1, 1, 2]} gap={6}>
+          <Section>
+            <WorkGridItem
+              id="dashboard"
+              title="Admin Dashboard"
+              thumbnail={thumbDashboard}
+            >
+              An admin dashboard for user management
+            </WorkGridItem>
+          </Section>
           <Section>
             <WorkGridItem
               id="marktfee"

@@ -69,9 +69,9 @@ const Page = () => {
               products and improving user experience in engaging and challenging
               projects. Currently working for{' '}
               <NextLink href="/works/marktfee">
-                <Link>ciconia Software GmbH </Link>
+                <Link>Dedalus HealthCare GmbH </Link>
               </NextLink>
-              as a working student - Lead Software Developer.
+              as Software Developer.
             </Paragraph>
           </ParagraphDiv>
           <Box align="center" my={4}>
@@ -86,7 +86,14 @@ const Page = () => {
           <Heading as="h3" variant="section-title">
             Bio
           </Heading>
-          <BioYear>2021 to present</BioYear>
+          <BioYear>2022 to present</BioYear>
+          <ParagraphDiv>
+            <Paragraph>
+              Working at Dedalus HealthCare GmbH in Trier, Germany as Software
+              Developer
+            </Paragraph>
+          </ParagraphDiv>
+          <BioYear>2021 to 2022</BioYear>
           <ParagraphDiv>
             <Paragraph>
               Working at ciconia Software GmbH in Mannheim, Germany as working
@@ -97,7 +104,7 @@ const Page = () => {
           <ParagraphDiv>
             <Paragraph>Working freelance as a Software Developer</Paragraph>
           </ParagraphDiv>
-          <BioYear>2018 to present</BioYear>
+          <BioYear>2018 to 2022</BioYear>
           <ParagraphDiv>
             <Paragraph>
               Studying business informatics at University of Mannheim
