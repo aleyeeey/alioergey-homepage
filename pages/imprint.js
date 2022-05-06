@@ -16,8 +16,6 @@ const Imprint = () => {
           </Heading>
           <Paragraph>
             <p>Ali Örgey</p>
-            <p>E 7, 9</p>
-            <p>68159 Mannheim</p>
           </Paragraph>
         </Section>
         <Section delay={0.2}>
@@ -30,7 +28,6 @@ const Imprint = () => {
           <Heading as="h4" variant="section-title">
             <p>Kontakt:</p>
           </Heading>
-          <Paragraph>Telefon: 0176-28027080</Paragraph>
           <Paragraph>E-Mail: ali@oergey.de</Paragraph>
         </Section>
         <Section delay={0.3}>
