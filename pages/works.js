@@ -4,7 +4,7 @@ import { WorkGridItem } from '../components/grid-item'
 import thumbMarktfee from '../public/images/marktfee-page.png'
 import thumbBelegcheck from '../public/images/tse_google_play.png'
 import thumbDirPersonal from '../public/images/dir_personal.png'
-import thumbDashboard from '../public/images/dashboard.png'
+import thumbNoImage from '../public/images/No-Image-Placeholder.svg.png'
 import Layout from '../components/layouts/article'
 
 const Works = () => {
@@ -17,11 +17,11 @@ const Works = () => {
         <SimpleGrid columns={[1, 1, 2]} gap={6}>
           <Section>
             <WorkGridItem
-              id="dashboard"
-              title="Admin Dashboard"
-              thumbnail={thumbDashboard}
+              id="serviceplatform"
+              title="Service Platform"
+              thumbnail={thumbNoImage}
             >
-              An admin dashboard for user management
+              Service platform for renter of a housing association
             </WorkGridItem>
           </Section>
           <Section>

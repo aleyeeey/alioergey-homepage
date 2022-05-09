@@ -5,14 +5,16 @@ import Layout from '../../components/layouts/article'
 
 const Work = () => {
   return (
-    <Layout title="Admin Dashboard">
+    <Layout title="Service Platform">
       <Container>
         <Title>
-          Admin Dashboard <Badge>2022</Badge>
+          Service Platform <Badge>2022</Badge>
         </Title>
         <P>
-          An Admin dashboard to manage users and subscriptions of users with
-          REST
+          A platform for renter of a housing association. Several different
+          services by connecting external providers - from interannual
+          consumption information to grocery orders, to delivering to an own
+          packing station.
         </P>
         <List ml={4} my={4}>
           <ListItem>
@@ -21,12 +23,15 @@ const Work = () => {
           </ListItem>
           <ListItem>
             <Meta>Stack</Meta>
-            <span>React (Next.js), Tailwind CSS, Spring</span>
+            <span>
+              React (Next.js), Axios, React Redux, Tailwind CSS, Spring, Git,
+              Jenkins, Docker
+            </span>
           </ListItem>
         </List>
         <WorkImage
-          src="/images/dashboard.png"
-          alt="Admin dashboard picture 1"
+          src="/images/No-Image-Placeholder.svg.png"
+          alt="Service platform picture"
         />
       </Container>
     </Layout>
