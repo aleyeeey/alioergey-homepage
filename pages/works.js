@@ -4,7 +4,7 @@ import { WorkGridItem } from '../components/grid-item'
 import thumbMarktfee from '../public/images/marktfee-page.png'
 import thumbBelegcheck from '../public/images/tse_google_play.png'
 import thumbDirPersonal from '../public/images/dir_personal.png'
-import thumbNoImage from '../public/images/No-Image-Placeholder.svg.png'
+import thumbNoImage from '../public/images/no-image.jpg'
 import Layout from '../components/layouts/article'
 
 const Works = () => {
