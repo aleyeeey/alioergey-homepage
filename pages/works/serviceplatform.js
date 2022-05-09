@@ -29,10 +29,7 @@ const Work = () => {
             </span>
           </ListItem>
         </List>
-        <WorkImage
-          src="/images/No-Image-Placeholder.svg.png"
-          alt="Service platform picture"
-        />
+        <WorkImage src="/images/no-image.jpg" alt="Service platform picture" />
       </Container>
     </Layout>
   )

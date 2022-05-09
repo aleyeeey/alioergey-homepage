@@ -68,8 +68,8 @@ const Page = () => {
               backend development. Passionate about creating high quality
               products and improving user experience in engaging and challenging
               projects. Currently working for{' '}
-              <NextLink href="/works/marktfee">
-                <Link>Dedalus HealthCare GmbH </Link>
+              <NextLink href="https://www.dedalus.com" passHref>
+                <Link target={'_blank'}>Dedalus HealthCare GmbH </Link>
               </NextLink>
               as Software Developer.
             </Paragraph>
@@ -93,16 +93,16 @@ const Page = () => {
               Developer
             </Paragraph>
           </ParagraphDiv>
+          <BioYear>2020 to present</BioYear>
+          <ParagraphDiv>
+            <Paragraph>Working freelance as a Software Developer</Paragraph>
+          </ParagraphDiv>
           <BioYear>2021 to 2022</BioYear>
           <ParagraphDiv>
             <Paragraph>
               Working at ciconia Software GmbH in Mannheim, Germany as working
               student (Lead Software Developer)
             </Paragraph>
-          </ParagraphDiv>
-          <BioYear>2020 to present</BioYear>
-          <ParagraphDiv>
-            <Paragraph>Working freelance as a Software Developer</Paragraph>
           </ParagraphDiv>
           <BioYear>2018 to 2022</BioYear>
           <ParagraphDiv>
