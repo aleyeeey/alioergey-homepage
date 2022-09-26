@@ -63,15 +63,12 @@ const Page = () => {
           </Heading>
           <ParagraphDiv>
             <Paragraph>
-              Freelancing Full Stack Developer & Software Engineer with over 2
+              Freelancing Full Stack Developer & Software Engineer with over 3
               years experience focusing on scalable solutions for front and
               backend development. Passionate about creating high quality
               products and improving user experience in engaging and challenging
-              projects. Currently working for{' '}
-              <NextLink href="https://www.dedalus.com" passHref>
-                <Link target={'_blank'}>Dedalus HealthCare GmbH </Link>
-              </NextLink>
-              as Software Developer.
+              projects. Currently working full-time freelance in 2 projects as a
+              Software Developer.
             </Paragraph>
           </ParagraphDiv>
           <Box align="center" my={4}>
@@ -86,16 +83,16 @@ const Page = () => {
           <Heading as="h3" variant="section-title">
             Bio
           </Heading>
-          <BioYear>2022 to present</BioYear>
+          <BioYear>2020 to present</BioYear>
+          <ParagraphDiv>
+            <Paragraph>Working freelance as a Software Developer</Paragraph>
+          </ParagraphDiv>
+          <BioYear>2022 to 2022</BioYear>
           <ParagraphDiv>
             <Paragraph>
               Working at Dedalus HealthCare GmbH in Trier, Germany as Software
               Developer
             </Paragraph>
-          </ParagraphDiv>
-          <BioYear>2020 to present</BioYear>
-          <ParagraphDiv>
-            <Paragraph>Working freelance as a Software Developer</Paragraph>
           </ParagraphDiv>
           <BioYear>2021 to 2022</BioYear>
           <ParagraphDiv>
