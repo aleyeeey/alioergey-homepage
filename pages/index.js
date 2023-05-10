@@ -67,8 +67,8 @@ const Page = () => {
               years experience focusing on scalable solutions for front and
               backend development. Passionate about creating high quality
               products and improving user experience in engaging and challenging
-              projects. Currently working full-time freelance in 2 projects as a
-              Software Developer.
+              projects. Currently working full-time freelance in a project as a
+              Frontend Developer/Technical Lead.
             </Paragraph>
           </ParagraphDiv>
           <Box align="center" my={4}>
